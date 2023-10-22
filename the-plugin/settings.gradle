@@ -1,2 +1,1 @@
 rootProject.name = 'the-plugin'
-include('plugin')
