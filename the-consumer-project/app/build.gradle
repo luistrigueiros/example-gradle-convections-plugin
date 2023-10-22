@@ -1,0 +1,13 @@
+plugins {
+    id 'application'
+    id 'java-library-convention'
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:32.1.1-jre'
+}
+
+application {
+    // Define the main class for the application.
+    mainClass = 'the.consumer.project.App'
+}
